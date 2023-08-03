@@ -1,0 +1,32 @@
+@import url("header.css");
+@import url("acervo.css");
+
+#acervo {
+  display: flex;
+  background-color: aliceblue;
+}
+
+#publicacoes {
+  display: flex;
+  background-color: yellow;
+  margin: 1px;
+}
+
+#publicacoes .row {
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+#nome h1 {
+  display: flex;
+  margin-top: 47%;
+}
+
+p {
+  text-indent: 2.5em;
+  margin-top: 0;
+}
