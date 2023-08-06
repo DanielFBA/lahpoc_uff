@@ -21,12 +21,8 @@ a {
   color: black !important;
 }
 
-#nome h1 {
+.nome {
   display: flex;
-  margin-top: 47%;
+  align-items: end;
 }
 
-p {
-  text-indent: 2.5em;
-  margin-top: 0;
-}

@@ -21,22 +21,25 @@
 
     <!-- Contacts -->
     <div class="header__contact">
-
+    <!--
       <div class="container">
         <nav class="nav__contact py-3">
           <ul class="nav__ul">
             <li class="nav__li">
-              <a class="nav__link" href="#"><i class="bi bi-telephone"></i>(99) 99999-9999</a>
+              <a class="nav__link" target="_blank" href="tel:+5581982165349"><i class="bi bi-telephone"></i>(99) 99999-9999</a>
             </li>
             <li class="nav__li">
-              <a class="nav__link" href="#"><i class="bi bi-geo-alt-fill"></i>lorem@gmail.com</a>
+              <a class="nav__link" target="_blank" href="Lahpoc.uff@gmail.com
+              "><i class="bi bi-geo-alt-fill"></i>lahpoc.uff@gmail.com
+              </a>
             </li>
           </ul>
         </nav>
       </div>
 
-    </div>
+    </div> -->
     <!-- End Contacts -->
+  
 
     <div class="container">
 
@@ -44,30 +47,58 @@
       <nav id="redes">
 
 
-        <div class="header__social py-3">
+        <div class="header__social__md d-none d-md-flex py-3">
 
           <div class="header__image">
             <img class="header__logo" src="assets/logo.jpg" alt="">
           </div>
 
-          <div class="header__socialLinks">
+          <div class="header__socialLinks__md">
 
             <div id="pai">
-              <a href="">
+              <a target="_blank" href="#">
                 <button type="button" class="btn btn-primary"><i class="bi bi-facebook"></i></button>
               </a>
-              <a href="https://www.instagram.com/lahpoc_campos/">
+              <a target="_blank" href="https://www.instagram.com/lahpoc_campos/">
                 <button type="button" class="btn btn-warning"><i class="bi bi-instagram"></i></button>
               </a>
-              <a href="">
+              <a target="_blank" href="https://www.youtube.com/channel/UCkGI8C-qzek9kcuOEs8iSdw ">
                 <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+              <a href="mailto:lahpoc.uff@gmail.com">
+                <button type="button" class="btn btn-danger"><i class="bi bi-envelope"></i></button>
               </a>
-              <a href="">
+              <a target="_blank" href="#">
                 <button type="button" class="btn btn-success">Fale Conosco</button>
               </a>
             </div>
 
           </div>
+        </div>
+        <div class="header__social__cell d-block d-md-none py-3 text-center">
+
+          <div class="header__image__cell img-fluid py-2">
+            <img class="header__logo" src="assets/logo.jpg" alt="">
+          </div>
+        </div>
+        <div class="header__socialLinks__cell py-1 d-md-none d-flex">
+
+          <div id="pai_cell">
+            <a target="_blank" href="#">
+              <button type="button" class="btn btn-primary"><i class="bi bi-facebook"></i></button>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/lahpoc_campos/">
+              <button type="button" class="btn btn-warning"><i class="bi bi-instagram"></i></button>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCkGI8C-qzek9kcuOEs8iSdw ">
+              <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+            <a href="mailto:lahpoc.uff@gmail.com">
+              <button type="button" class="btn btn-danger"><i class="bi bi-envelope"></i></button>
+            </a>
+            <a target="_blank" href="#">
+              <button type="button" class="btn btn-success">Fale Conosco</button>
+            </a>
+          </div>
+
         </div>
 
       </nav>
@@ -96,24 +127,24 @@
                 LAHPOC
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/integrantes.html">Integrantes</a></li>
-                <li><a class="dropdown-item" href="pages/quemsomos.html">Quem Somos</a></li>
+                <li><a class="dropdown-item" target="_self" rel="prox" href="pages/integrantes.html">Integrantes</a></li>
+                <li><a class="dropdown-item" target="_self" rel="prox" href="pages/quemsomos.html">Quem Somos</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/noticias.html">Notícias</a>
+              <a class="nav-link" target="_self" rel="prox" href="pages/noticias.html">Notícias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/acervo.html">Acervo</a>
+              <a class="nav-link" target="_self" rel="prox" href="pages/acervo.html">Acervo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/eventos.html">Eventos</a>
+              <a class="nav-link" target="_self" rel="prox" href="pages/eventos.html">Eventos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/publicacoes.html">Publicaçõess</a>
+              <a class="nav-link" target="_self" rel="prox" href="pages/publicacoes.html">Publicaçõess</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/pesquisas.html">Pesquisas</a>
+              <a class="nav-link" target="_self" rel="prox" href="pages/pesquisas.html">Pesquisas</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -195,15 +226,19 @@
 
         <div class="row">
 
+          <div class="d-md-none acervo__wrapper d-flex justify-content-center align-items-center">
+            <h2 class="acervo__title">Acervo</h2>
+          </div>
+
           <div class="col-12 col-md-6">
             <img class="img-fluid"
               src="https://th.bing.com/th/id/R.1f171fc260b887af428e4c277c6f7663?rik=ej8HhH6ehLKIyw&pid=ImgRaw&r=0&sres=1&sresct=1"
               alt="">
           </div>
 
-          <div class="col-12 col-md-6 py-5">
+          <div class="col-12 col-md-6 py-md-5 text-center">
 
-            <div class="acervo__wrapper d-flex justify-content-center align-items-center">
+            <div class="d-none d-md-flex acervo__wrapper justify-content-center align-items-center">
               <h2 class="acervo__title">Acervo</h2>
             </div>
 
@@ -211,7 +246,7 @@
               laboriosam rerum labore, fugiat ipsum eveniet quo officiis expedita aspernatur voluptate architecto, et
               nam? Et labore quibusdam distinctio?</p>
 
-            <a href="pages/acervo.html">Lorem, ipsum dolor.</a>
+            <a target="_self" rel="prox" href="pages/acervo.html">Lorem, ipsum dolor.</a>
 
           </div>
 
@@ -221,8 +256,8 @@
     <!-- End Acervo -->
 
     <section id="eventos">
-      <div class="container">
-        <h2 class="text-center py-2">Eventos</h2>
+      <div class="container text-center">
+        <h2 class="py-2">Eventos</h2>
         <div class="row">
           <div class="col-4">
             <a href="#">
@@ -254,18 +289,12 @@
       <div class="container py-4">
         <div class="row">
 
-          <div class="col-md-5 col-12 py-3 d-md-none d-block">
+          <div class="text-center d-md-none d-block">
             <h2>Publicações</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio labore mollitia laboriosam tempora
-              cupiditate cum enim nesciunt libero deleniti alias rerum ab officia fuga veniam sequi quasi quidem, nemo
-              distinctio culpa neque quam optio atque eveniet? Consequatur est fuga sit cumque necessitatibus vel
-              repellat perspiciatis?
-            </p>
-            <a href="#">Lorem ipsum dolor sit.</a>
           </div>
 
           <div class="col-md-7 col-12">
-            <div class="row py-3">
+            <div class="row py-2">
               <div class="col-4"><img class="img-fluid"
                   src="https://http2.mlstatic.com/D_NQ_NP_914617-MLB43825274376_102020-F.jpg" alt="">
                 <span>lorem</span>
@@ -304,8 +333,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-12 py-3 d-md-block d-none">
-            <h2>Publicações</h2>
+          <div class="col-md-5 col-12 py-3">
+            <h2 class="d-md-block d-none">Publicações</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio labore mollitia laboriosam tempora
               cupiditate cum enim nesciunt libero deleniti alias rerum ab officia fuga veniam sequi quasi quidem, nemo
               distinctio culpa neque quam optio atque eveniet? Consequatur est fuga sit cumque necessitatibus vel
@@ -389,52 +418,52 @@
         </div>
         <div class="row row-cols-5 row-gap-4 py-4">
           <div class="col ">
-            <a href="integrantes/debora.html">
+            <a target="_self" rel="prox" href="pages/integrantes/debora.html">
               <img class="img-fluid" src="assets/integrantes/professora modificado.jpg" alt="">
             </a>
           </div>
           <div class="col ">
-            <a href="integrantes/gabriel.html">
+            <a target="_self" rel="prox" href="pages/integrantes/gabriel.html">
               <img class="img-fluid" src="assets/integrantes/gabriel_redimensionado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/lucas.html">
+            <a target="_self" rel="prox" href="pages/integrantes/lucas.html">
               <img class="img-fluid" src="assets/integrantes/lucas.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/marcele.html">
+            <a target="_self" rel="prox" href="pages/integrantes/marcele.html">
               <img class="img-fluid" src="assets/integrantes/marcele modificado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/nickolly.html">
+            <a target="_self" rel="prox" href="pages/integrantes/nickolly.html">
               <img class="img-fluid" src="assets/integrantes/nickolly modificado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/nicole.html">
+            <a target="_self" rel="prox" href="pages/integrantes/nicole.html">
               <img class="img-fluid" src="assets/integrantes/nicole modificado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/paulo.html">
+            <a target="_self" rel="prox" href="pages/integrantes/paulo.html">
               <img class="img-fluid" src="assets/integrantes/paulo modificado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/joaoneto.html">
+            <a target="_self" rel="prox" href="pages/integrantes/joaoneto.html">
               <img class="img-fluid" src="assets/integrantes/joaoneto3.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/vitoria.html">
+            <a target="_self" rel="prox" href="pages/integrantes/vitoria.html">
               <img class="img-fluid" src="assets/integrantes/vitoria modificado.jpg" alt="">
             </a>
           </div>
           <div class="col">
-            <a href="integrantes/mariana.html">
+            <a target="_self" rel="prox" href="pages/integrantes/mariana.html">
               <img class="img-fluid" src="assets/integrantes/mariana2.jpg" alt="">
             </a>
           </div>

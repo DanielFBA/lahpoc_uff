@@ -8,7 +8,7 @@
   list-style: none;
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
 }
 
@@ -26,18 +26,25 @@ img {
   max-height: 100%;
 }
 
-#redes img {
-  max-width: 120%;
-  max-height: 120%;
+.header__social__md {
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__social{
-    display: flex;
-    justify-content: space-between;
+.header__socialLinks__md {
+  display: flex;
+  align-items: last baseline;
 }
 
-.header__socialLinks{
-    display: flex;
-    align-items: last baseline;
+.header__image__cell img {
+  max-width: 50%;
+  max-height: 50%;
 }
+
+.header__sociallinks__cell {
+  display: flex;
+  justify-content: center;
+}
+
+
 /*End Header */
