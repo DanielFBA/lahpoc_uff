@@ -83,7 +83,7 @@
         <div class="header__socialLinks__cell py-1 d-md-none d-flex">
 
           <div id="pai_cell">
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100095334203507&mibextid=2JQ9oc">
               <button type="button" class="btn btn-primary"><i class="bi bi-facebook"></i></button>
             </a>
             <a target="_blank" href="https://www.instagram.com/lahpoc_campos/">
@@ -162,61 +162,41 @@
   <main>
     <!-- Hero -->
     <section id="hero">
-      <div class="">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://th.bing.com/th/id/OIP.otQjdQ0gF3uFl_x4aWkPLQHaE8?pid=ImgDet&rs=1" class="d-block w-100"
-                alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://th.bing.com/th/id/R.06db452fc12c1c27687799e8759bae75?rik=i2PMHbxsCyA2lw&riu=http%3a%2f%2fwww.aplausoeventos.com.br%2fwp-content%2fuploads%2f2019%2f11%2fevento77.jpg&ehk=FLkra0g1%2f91qxuDneGbfuXNUasTuWpk9whM5HybAUcw%3d&risl=&pid=ImgRaw&r=0"
-                alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://th.bing.com/th/id/R.1f171fc260b887af428e4c277c6f7663?rik=ej8HhH6ehLKIyw&pid=ImgRaw&r=0&sres=1&sresct=1"
-                class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="bg-primary">Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <div id="carouselExampleInterval" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="assets/acervo/primeira_reuniao.JPG" class="d-block w-100" alt="...">      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/acervo/danilo_e_roberta.JPG" class="d-block w-100" alt="...">      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="assets/acervo/filme_0.JPG" class="d-block w-100" alt="...">      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
     <!-- End Hero -->
 
@@ -224,19 +204,27 @@
     <section id="acervo">
       <div class="container py-4">
 
-        <div class="row">
-
-          <div class="d-md-none acervo__wrapper d-flex justify-content-center align-items-center">
+        <div class="d-md-none acervo__wrapper d-flex justify-content-center align-items-center">
             <h2 class="acervo__title">Acervo</h2>
           </div>
 
-          <div class="col-12 col-md-6">
-            <img class="img-fluid"
-              src="https://th.bing.com/th/id/R.1f171fc260b887af428e4c277c6f7663?rik=ej8HhH6ehLKIyw&pid=ImgRaw&r=0&sres=1&sresct=1"
-              alt="">
+        <div class="row row-cols-md-2 row-cols-1">
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/acervo/contrucao_lahpoc_1.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/acervo/contrucao_lahpoc_2.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/acervo/contrucao_lahpoc_3.JPG" class="d-block w-100" alt="...">
+              </div>
+            </div>
           </div>
 
-          <div class="col-12 col-md-6 py-md-5 text-center">
+          <div class="py-md-5 text-center">
 
             <div class="d-none d-md-flex acervo__wrapper justify-content-center align-items-center">
               <h2 class="acervo__title">Acervo</h2>
@@ -416,7 +404,7 @@
         <div class="container py-2 bg-success text-center">
           <h2>Colaboradores</h2>
         </div>
-        <div class="row row-cols-5 row-gap-4 py-4">
+        <div class="row row-cols-md-5 row-cols-2 row-gap-4 py-4">
           <div class="col ">
             <a target="_self" rel="prox" href="pages/integrantes/debora.html">
               <img class="img-fluid" src="assets/integrantes/professora modificado.jpg" alt="">
@@ -465,6 +453,11 @@
           <div class="col">
             <a target="_self" rel="prox" href="pages/integrantes/mariana.html">
               <img class="img-fluid" src="assets/integrantes/mariana2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col">
+            <a target="_self" rel="prox" href="pages/integrantes/eduarda.html">
+              <img class="img-fluid" src="assets/integrantes/eduarda.jpg" alt="">
             </a>
           </div>
         </div>
