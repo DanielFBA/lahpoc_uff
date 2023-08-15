@@ -5,4 +5,10 @@
     justify-content: space-evenly;
 }
 
+.parceiros__img__cell {
+    display: flex;
+    max-height: 100px;
+    justify-content: space-between;
+}
+
 /*end parceiros*/
