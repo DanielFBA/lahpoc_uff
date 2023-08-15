@@ -7,8 +7,12 @@
 
 .parceiros__img__cell {
     display: flex;
-    max-height: 100px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.parceiros__img__cell a {
+    display: flex;
+    max-width: 80px;
 }
 
 /*end parceiros*/
