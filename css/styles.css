@@ -1,9 +1,8 @@
 @import url("header.css");
 @import url("acervo.css");
+@import url("parceiros.css");
 
-#acervo {
-  display: flex;
-  background-color: aliceblue;
+main {
 }
 
 #publicacoes {

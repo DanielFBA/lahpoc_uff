@@ -1,0 +1,8 @@
+/*parceiros*/
+
+.parceiros__img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*end parceiros*/

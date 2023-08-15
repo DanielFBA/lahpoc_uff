@@ -1,3 +1,8 @@
+#acervo {
+  display: flex;
+  background-color: aliceblue;
+}
+
 .acervo__title {
   background: green;
   width: max-content;
@@ -15,6 +20,3 @@
   flex-direction: column;
 }
 
-.acervo img {
-  height: 600px !important;
-}
