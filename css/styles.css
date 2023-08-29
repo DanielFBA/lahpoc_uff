@@ -2,9 +2,6 @@
 @import url("acervo.css");
 @import url("parceiros.css");
 
-main {
-}
-
 #publicacoes {
   display: flex;
   background-color: yellow;
@@ -23,5 +20,23 @@ a {
 .nome {
   display: flex;
   align-items: end;
+}
+
+.publicacoes__itens {
+  display: flex;
+  padding: 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.publicacoes__itens a {
+  display: flex;
+  border: 2px solid red;
+}
+
+.pdf__title {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
