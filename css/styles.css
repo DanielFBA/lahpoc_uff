@@ -37,6 +37,10 @@ a {
 .pdf__title {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0px 0px 0px 10px;
 }
 
+.img__publicacoes {
+  display: flex;
+  align-items: center;
+}
