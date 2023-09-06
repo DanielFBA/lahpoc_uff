@@ -1,6 +1,7 @@
 #acervo {
   display: flex;
   background-color: aliceblue;
+  padding: 15px 0px 15px 0px;
 }
 
 .acervo__title {

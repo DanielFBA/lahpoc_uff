@@ -44,3 +44,19 @@ a {
   display: flex;
   align-items: center;
 }
+
+#hero {
+  display: flex;
+  padding: 5px 0px 0px 0px;
+}
+
+.nav__cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: end;
+}
