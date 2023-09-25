@@ -60,3 +60,19 @@ a {
   display: flex;
   justify-content: end;
 }
+
+.mais__pesquisas {
+  display: flex;
+  justify-content: end;
+}
+
+.link__mais__pesquisa {
+  display: flex;
+  text-decoration: underline !important;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.pesquisas__title {
+  padding: 0.5rem 0;
+}
