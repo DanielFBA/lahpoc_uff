@@ -10,14 +10,8 @@
   padding: 1rem;
 }
 
-.acervo__sec {
-  display: flex;
-  align-items: center;
-}
-
 .acervo__text {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-

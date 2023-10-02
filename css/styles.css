@@ -17,6 +17,10 @@ a {
   color: black !important;
 }
 
+.nav-link {
+  text-decoration: none !important;
+}
+
 .nome {
   display: flex;
   align-items: end;
@@ -56,7 +60,7 @@ a {
   justify-content: end;
 }
 
-.nav-item {
+.navbar__item {
   display: flex;
   justify-content: end;
 }
@@ -75,4 +79,21 @@ a {
 
 .pesquisas__title {
   padding: 0.5rem 0;
+}
+
+.dropdown-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.dropdown-menu {
+  display: flex;
+  width: 50px;
+}
+
+.puvlicacao__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
