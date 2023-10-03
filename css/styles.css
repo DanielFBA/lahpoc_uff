@@ -29,8 +29,6 @@ a {
 .publicacoes__itens {
   display: flex;
   padding: 1px;
-  align-items: center;
-  justify-content: center;
 }
 
 .publicacoes__itens a {
@@ -95,5 +93,5 @@ a {
 .puvlicacao__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
