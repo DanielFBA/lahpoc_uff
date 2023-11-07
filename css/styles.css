@@ -112,7 +112,7 @@ a {
 
 #hero {
   display: flex;
-  background-color: antiquewhite;
+  background-color: rgb(250, 242, 231);
   padding: 1rem;
 }
 
