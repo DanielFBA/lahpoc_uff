@@ -109,3 +109,10 @@ a {
   justify-content: center;
   align-items: end;
 }
+
+#hero {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+
