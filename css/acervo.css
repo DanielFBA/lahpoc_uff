@@ -20,3 +20,35 @@
   display: flex;
   justify-content: center;
 }
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  padding: 0.15rem;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.image__estrutura img{
+  display: flex;
+}
+
+.teste {
+  display: flex;
+}
+
+.teste:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.acervo__page__title {
+  display: flex;
+  justify-content: center;
+}

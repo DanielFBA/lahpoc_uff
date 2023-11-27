@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("acervo.css");
 @import url("parceiros.css");
+@import url("animations.css");
 
 #publicacoes {
   display: flex;

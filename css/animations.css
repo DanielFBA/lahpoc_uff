@@ -1,0 +1,8 @@
+.pesquisas__itens .teste:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.pesquisas__itens .teste:hover> :not(:hover) {
+  transform: scale(1.0);
+}
