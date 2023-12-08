@@ -117,3 +117,8 @@ a {
   padding: 1rem;
 }
 
+#quemsomos__page .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
