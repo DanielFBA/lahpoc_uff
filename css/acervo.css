@@ -52,3 +52,27 @@
   display: flex;
   justify-content: center;
 }
+
+.title__acervo__page {
+  display: flex;
+}
+
+#estrutura .title__acervo__page {
+  background-color: yellow;
+}
+
+#colaboradores__antigos .title__acervo__page {
+  background-color: green;
+}
+
+#colaboradores__atuais .title__acervo__page {
+  background-color: yellow;
+}
+
+#geraldo__gamboa .title__acervo__page {
+  background-color: green;
+}
+
+#tania__barbeto .title__acervo__page {
+  background-color: yellow;
+}
