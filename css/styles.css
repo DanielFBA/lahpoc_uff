@@ -107,7 +107,7 @@ a {
 
 .redes__footer {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: end;
 }
 
